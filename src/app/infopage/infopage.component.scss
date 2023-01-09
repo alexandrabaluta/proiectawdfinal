@@ -1,0 +1,32 @@
+.example-action-buttons {
+  padding-bottom: 20px;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 15px;
+}
+
+h1 {
+  font-family: "Book Antiqua", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.example-list-wrapping {
+  max-width: 500px;
+}

@@ -1,0 +1,60 @@
+<h1>Personal Info Page</h1>
+<br>
+    <div class="example-action-buttons">
+      <button mat-button (click)="accordion.openAll()">Expand All</button>
+      <button mat-button (click)="accordion.closeAll()">Collapse All</button>
+    </div>
+    <mat-accordion class="example-headers-align" multi
+    >
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Education
+          </mat-panel-title>
+          <mat-panel-description>
+            A list of all my studies since 2008<br>
+            <mat-icon>account_circle</mat-icon>
+          </mat-panel-description>
+
+        </mat-expansion-panel-header>
+
+        <h3><b>2021 - 2023: </b>Master's programme Universitatea Babeș-Bolyai Advanced Computer Systems: Modelling, Design, Development (German language) </h3>
+        <h3><b>2018 - 2021: </b> Universitatea Babeș-Bolyai
+          Computer Science (german language) </h3>
+        <h3><b>2014-2018: </b>German High School "Stephan Ludwig Roth
+          Mathematics and Computer Science Department in Medias
+        </h3>
+        <h3><b>2006-2014: </b> German School "Hermann Oberth" in Medias</h3>
+
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Work Experience
+          </mat-panel-title>
+          <mat-panel-description>
+            A list with my work experience since 2020<br>
+            <mat-icon>work</mat-icon>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <h3><b>16 January 2023 - present:</b>Fullstack Developer Cognizant Mobility </h3>
+        <h3><b>July 2021- 13 January 2023: </b> NTT Data
+          IT Consultant und Junior Java Developer </h3>
+        <h3><b>August 2020- September 2020: </b>msg systems
+          Java Training (Java + Angular)
+        </h3>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Email
+          </mat-panel-title>
+          <mat-panel-description>
+            My Email
+            <mat-icon>alternate_email</mat-icon>
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <b>alexandra.baluta[at]ubbcluj.ro</b>
+      </mat-expansion-panel>
+    </mat-accordion>

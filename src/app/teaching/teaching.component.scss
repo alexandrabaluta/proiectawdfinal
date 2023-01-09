@@ -1,0 +1,87 @@
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+h3 {
+  font-size: medium;
+  font-synthesis: weight;
+
+}
+
+p {
+  font-style: oblique;
+  font-size: medium;
+}
+
+h1 {
+  font-family: "Book Antiqua", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  padding: 0.5rem;
+  font-size: 20px;
+  user-select: none;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: #f5437c;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.top-mat-card {
+  margin-top: 80px;
+}
+
+.feature:hover {
+  -webkit-box-shadow: 5px 5px 35px -6px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 35px -6px rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+  transition: all 0.4s ease-out;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+h3 {
+  font-size: medium;
+  font-synthesis: weight;
+
+}
+
+p {
+  font-size: large;
+  font-style: normal;
+}
+
+.container {
+}
+
+.materii {
+  width: 90%;
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #3da6ec;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
